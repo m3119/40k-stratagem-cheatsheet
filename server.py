@@ -8,3 +8,7 @@ def hello_world():
 @app.route('/antti')
 def antti():
     return 'hodor'
+
+@app.route('/antti')
+def apinakontti():
+    return 'däh'
